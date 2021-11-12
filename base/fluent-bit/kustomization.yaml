@@ -1,0 +1,8 @@
+resources:
+  - templates/daemonset.yaml
+  - templates/tests/test-connection.yaml
+  - templates/service.yaml
+  - templates/clusterrole.yaml
+  - templates/serviceaccount.yaml
+  - templates/configmap.yaml
+  - templates/clusterrolebinding.yaml
