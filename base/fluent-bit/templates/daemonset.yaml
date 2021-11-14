@@ -18,7 +18,7 @@ spec:
   template:
     metadata:
       annotations:
-        checksum/config: 90301d03ae5a2cd66b308e545e4d073b8ddcfbde557a69624b6b4ab974543549
+        checksum/config: 975f8ef6485731a83b72ceaba84ab0671caa0dcbbb0d7e2eb814e9944e9b823d
         checksum/luascripts: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
       labels:
         app.kubernetes.io/name: fluent-bit

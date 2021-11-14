@@ -54,16 +54,9 @@ data:
         K8S-Logging.Exclude On
     
     [OUTPUT]
-        Name es
-        Match kube.*
-        Host elasticsearch-master
-        Logstash_Format On
-        Retry_Limit False
-    
-    [OUTPUT]
-        Name es
-        Match host.*
-        Host elasticsearch-master
-        Logstash_Format On
-        Logstash_Prefix node
-        Retry_Limit False
+        Name loki
+        Match *
+        Host grafana-loki
+        Port 3100
+        Labels job=fluentbit
+        auto_kubernetes_labels on
