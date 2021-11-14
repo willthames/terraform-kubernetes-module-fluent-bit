@@ -1,4 +1,4 @@
 namespace: monitoring
 
 resources:
-  ../base
+  - ../base
